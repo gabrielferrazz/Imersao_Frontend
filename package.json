@@ -25,6 +25,12 @@
   "scripts": {
     "build": "parcel build index.html --dist-dir dist"
   },
+  "targets": {
+    "default": {
+      "context": "browser",
+      "distDir": "dist"
+    }
+  },
   "devDependencies": {
     "parcel": "^2.12.0"
   }
